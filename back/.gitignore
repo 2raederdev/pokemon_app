@@ -1,1 +1,25 @@
+#Byte-compiled
+*.py[cod]
+
+# Built documentation
+docs/_build/
+
+#Distribution / packaging
+*.egg-info/
+build/
+dist/
+lib/
+
+# IDEs
+.eclipse/
+.idea/
+.vscode
+**/*.iml
+
+# Virtual environment
+env/
+venv/
 .env
+
+# Instance configuration
+instance/
