@@ -52,7 +52,6 @@ export default {
       commit('SET_POKEMON_LIST', res.data)
     },
     async catchPokemon ({ state, commit }, pokemon) {
-      console.log('entra el store')
       const id = pokemon.id
       const caught = !pokemon.caught
 
